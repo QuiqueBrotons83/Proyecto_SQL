@@ -24,8 +24,8 @@ Las siguientes tablas son relevantes para este análisis:
 
 ## Tecnologias usadas
  
-**PostgreSQL**: Para el manejo de base de datos y consultas SQL.
-**DBeaver**: Como herramienta para ejecutar las consultas SQL y administrar la base de datos.
+- **PostgreSQL**: Para el manejo de base de datos y consultas SQL.
+- **DBeaver**: Como herramienta para ejecutar las consultas SQL y administrar la base de datos.
 
 ## Contribuciones
 
@@ -34,5 +34,6 @@ escríbeme.
 
 ## Autor
 
-Quique Brotons - mail : quiquebrotons83@gmail.com
-github: https://github.com/QuiqueBrotons83
+Quique Brotons
+- mail : quiquebrotons83@gmail.com
+- github: https://github.com/QuiqueBrotons83

@@ -17,18 +17,22 @@ Las siguientes tablas son relevantes para este análisis:
 
 ## Consultas Realizadas
 
-A continuación se muestran las principales consultas SQL realizadas en este proyecto:
+-  **Consultas básicas**: Realizando querys básicas sobre las tablas, y seleccionado datos simples.
+-  **Consultas intermedias**: Realizando querys con algun JOIN y realizado querys más complejas.
+-  **Consultas  avanzadas**: Estas querys ya se hacen diferentes JOIN, GROUP BY, HAVING Y WHERE.
+-  **Consultas  temporales** Aquí combinamos avanzadas con creación de tablas temporales.
 
-### 1. **Clientes con más de 40 Alquileres**
-   - Consulta que devuelve los actores que han participado en más de 40 películas.
+## Tecnologias usadas
+ 
+**PostgreSQL**: Para el manejo de base de datos y consultas SQL.
+**DBeaver**: Como herramienta para ejecutar las consultas SQL y administrar la base de datos.
 
-   ```sql
-   SELECT 
-       a.actor_id, 
-       CONCAT(a.first_name, ' ', a.last_name) AS nombre_completo
-   FROM actor a
-   JOIN film_actor fa ON a.actor_id = fa.actor_id
-   GROUP BY a.actor_id
-   HAVING COUNT(fa.film_id) > 40;
-.
+## Contribuciones
 
+Si deseas darme algún feedback con mejoras sobre mis querys y así enriquecerme con tus conocimientos
+escríbeme.
+
+## Autor
+
+Quique Brotons - mail : quiquebrotons83@gmail.com
+github: https://github.com/QuiqueBrotons83
